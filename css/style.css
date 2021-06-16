@@ -1,0 +1,485 @@
+@charset "UTF-8";
+/* Nesting o anidamiento */
+/* Import */
+/* VARIABLES */
+/* Colores */
+/* FIN DE VARIABLES */
+/* HEADER */
+.header {
+  background-color: darkred;
+}
+
+.portada {
+  color: white;
+  background-color: #e24b4b;
+  font-family: "Righteous", cursive;
+  font-size: 40px;
+  text-align: center;
+  width: fit-content;
+  z-index: 2;
+}
+
+.menuPrincipal {
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  border: 0;
+  margin: 0;
+  text-align: center;
+  align-items: center;
+  position: static;
+  width: 100%;
+  color: darkred;
+  font-family: "Righteous", cursive;
+  font-weight: 600;
+  font-size: 20px;
+  margin: auto;
+}
+
+.activa {
+  color: darkorange;
+}
+
+a {
+  text-decoration: none;
+  color: colorBordo;
+}
+
+.menu {
+  text-align: center;
+  align-items: center;
+  position: static;
+  width: 100%;
+  color: colorBordo;
+  font-family: "Righteous", cursive;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  font-weight: 600;
+  font-size: 25px;
+}
+
+/* FIN DE HEADER */
+/* VARIABLES */
+/* Colores */
+/* FIN DE VARIABLES */
+/* BODY */
+* {
+  padding: 0;
+  margin: 0;
+}
+
+html {
+  font-size: 20px;
+}
+
+.principal {
+  background-attachment: scroll;
+  background-color: #e24b4b;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.fotoportada {
+  text-align: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  font-size: 1em;
+  color: darkred;
+}
+
+.texto {
+  font-family: "Manrope", sans-serif;
+  color: white;
+  padding-left: 50px;
+  padding-right: 50px;
+  padding: 0 20% 0 20%;
+}
+
+.indice {
+  text-align: center;
+  position: static;
+}
+
+.titulos {
+  color: white;
+  font-family: "Manrope", sans-serif;
+  font-size: 25px;
+  position: static;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+/* Color cuando la pestaña de referencia está seleccionada */
+/*foto de noticia principal*/
+.fotonoticia {
+  width: 40%;
+}
+
+h2 {
+  font-size: 2em;
+  color: darkred;
+  font-family: "Manrope", sans-serif;
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-bottom: 15px;
+  font-weight: bold;
+}
+
+h3, h4, h5, h6 {
+  font-size: 1.3em;
+  color: darkred;
+  font-family: "Manrope", sans-serif;
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-top: 15px;
+  text-decoration: underline;
+}
+
+.textoportada {
+  font-size: 2em;
+  text-align: left;
+  color: darkorange;
+  font-family: "Manrope", sans-serif;
+  padding-left: 0;
+  padding-bottom: 0;
+}
+
+.parrafo {
+  font-size: 1em;
+  color: darkred;
+  font-family: "Manrope", sans-serif;
+  padding-left: 50px;
+  padding-right: 50px;
+  padding: 0 20% 0 20%;
+  margin: auto;
+}
+
+.parrafofoto {
+  font-size: 1em;
+  text-align: left;
+  color: darkorange;
+  font-family: "Manrope", sans-serif;
+  padding-left: 0;
+  padding-top: 0;
+  margin: auto;
+}
+
+.partidoscolores {
+  margin: auto;
+  align-items: center;
+}
+
+.partidoscolores2 {
+  margin: auto;
+  align-items: center;
+}
+
+.fotoportada1 {
+  transition: all 3s;
+  width: 500px;
+  margin: auto;
+  align-items: center;
+}
+
+.fotoportada1:hover {
+  filter: sepia(2);
+}
+
+.fotoportada2:hover {
+  filter: sepia(2);
+}
+
+.logoprincipal {
+  transition: all 4s;
+}
+
+.logoprincipal:hover {
+  transform: translateX(30px);
+}
+
+.partido1:hover {
+  background-color: red;
+  transition: all 2s;
+}
+
+.partido2:hover {
+  background: white;
+  transition: all 2s;
+}
+
+.pxwide {
+  width: 500px;
+  align-items: center !important;
+  display: flex !important;
+  justify-content: center !important;
+  position: center !important;
+  padding-top: 100px !important;
+  padding-left: 100px !important;
+  padding-right: 100px !important;
+  padding-bottom: 100px !important;
+  margin: auto;
+}
+
+.galeriaimagenes {
+  margin: auto;
+}
+
+/* FIN DE BODY*/
+/* VARIABLES */
+/* Colores */
+/* FIN DE VARIABLES */
+/* Footer */
+footer {
+  border-top: solid 2px #e24b4b;
+  /*operadores matematicos*/
+  border-right: solid 2px #e24b4b;
+  /*operadores matematicos*/
+  border-bottom: solid 2px #e24b4b;
+  /*operadores matematicos*/
+  border-left: solid 2px #e24b4b;
+  /*operadores matematicos*/
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  background-color: darkred;
+  margin-top: 150px;
+  width: 100%;
+  margin-bottom: 0 !important;
+  bottom: 0 !important;
+  padding: 5% 10% 0% 10%;
+  color: white;
+  font-family: "Manrope", sans-serif;
+  font-weight: bolder;
+}
+
+.logosredes {
+  width: 35px;
+  margin: auto;
+  padding-bottom: 50px;
+}
+
+/* Fin de Footer */
+/* VARIABLES */
+/* Colores */
+/* FIN DE VARIABLES */
+/* NAVBAR - MENU */
+nav {
+  border-top: solid 2px darkred;
+  border-right: solid 2px darkred;
+  border-bottom: solid 2px darkred;
+  border-left: solid 2px darkred;
+  text-align: center;
+  word-spacing: 4em;
+  background-color: #e24b4b;
+}
+
+/* Menú con submenú*/
+nav a {
+  text-decoration: none;
+  color: inherit;
+  font-size: 14px;
+}
+
+nav li {
+  display: inline-block;
+  width: 150px;
+  height: 30px;
+  background-color: darkred;
+  text-align: center;
+  color: #e24b4b;
+  position: relative;
+  z-index: 2;
+}
+
+nav a:hover {
+  color: darkorange !important;
+  text-decoration: none;
+}
+
+nav li:hover {
+  color: darkorange !important;
+  text-decoration: none;
+}
+
+nav li > ul {
+  display: none;
+}
+
+nav li:hover > ul {
+  display: block;
+  position: absolute;
+  top: 30px;
+  left: 0px;
+}
+
+/* FIN DE NAVBAR - MENU */
+/* Media query */
+@media only screen and (max-width: 600px) {
+  * {
+    margin: 0px;
+    padding: 0px;
+  }
+
+  ul {
+    text-align: center;
+    background-color: #e24b4b;
+    margin-top: 50px;
+  }
+
+  nav ul {
+    margin-top: 50px;
+  }
+
+  .fotoportada {
+    text-align: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    font-size: 1em;
+    color: white;
+    width: 50% !important;
+  }
+
+  .menuPrincipal {
+    margin: auto !important;
+    font-size: small;
+  }
+
+  .logoprincipal {
+    transition: all 4s;
+    width: 100% !important;
+  }
+
+  .logoprincipal:hover {
+    transform: translateX(30px);
+  }
+}
+/*fin de media query*/
+/* FLEXBOX */
+.historia-flex {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  margin: 0;
+  border: 0;
+}
+
+.camisetasflamengo {
+  width: 100px;
+  align-items: center !important;
+  justify-content: center !important;
+  display: flex !important;
+  flex-direction: row !important;
+  margin: auto;
+}
+
+.alejado {
+  padding-bottom: 150px;
+}
+
+.foto-estadio {
+  font-family: "Manrope", sans-serif;
+  text-align: center;
+  font-size: larger;
+  align-items: center;
+  width: 50px;
+  height: 50px;
+}
+
+.textocard {
+  margin: auto;
+  align-items: center;
+}
+
+.mapaubicacion {
+  align-items: center !important;
+  justify-content: center;
+  padding: 0 20% 0 20%;
+}
+
+.contactosocios {
+  display: block;
+  text-align: center;
+  margin: 100px 0 154px;
+  padding: 30px 22px 24px;
+  background-color: #e73d3d;
+}
+
+.tablaresultadosfija {
+  border-top: solid 2px darkred;
+  border-right: solid 2px darkred;
+  border-bottom: solid 2px darkred;
+  border-left: solid 2px darkred;
+}
+
+.tablaresultados .tablaresultados1 .tablaresultados2 {
+  border-top: solid 2px darkred;
+  border-right: solid 2px darkred;
+  border-bottom: solid 2px darkred;
+  border-left: solid 2px darkred;
+}
+
+.letraresultados {
+  font-size: 0.75em;
+  justify-content: center;
+  text-align: center;
+}
+
+.tablaresultados:hover {
+  background-color: red;
+  transition: all 2s;
+}
+
+.tablaresultados1:hover {
+  background-color: green;
+  transition: all 2s;
+}
+
+.tablaresultados2:hover {
+  background-color: yellow;
+  transition: all 2s;
+}
+
+/* VARIABLES */
+/* Colores */
+/* FIN DE VARIABLES */
+/* VARIABLES */
+/* Colores */
+/* FIN DE VARIABLES */
+/* EXTENDS */
+.partidoscolores, .partidoscolores2 {
+  border-top: solid 2px black;
+  border-right: solid 2px black;
+  border-bottom: solid 2px black;
+  border-left: solid 2px black;
+}
+
+/* FIN EXTENDS */
+/* MIXINS */
+.partidoscolores1 {
+  background-color: red;
+  border: solid 5px !important;
+}
+
+.partidoscolores2 {
+  background-color: white;
+  border: solid 5px !important;
+}
+
+/* FIN MIXINS */
+/* EXTENDS */
+.partidoscolores, .partidoscolores2 {
+  border-top: solid 2px black;
+  border-right: solid 2px black;
+  border-bottom: solid 2px black;
+  border-left: solid 2px black;
+}
+
+/* FIN EXTENDS */
+/*# sourceMappingURL=style.scss.map */
+
+/*# sourceMappingURL=style.css.map */

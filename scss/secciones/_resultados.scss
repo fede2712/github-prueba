@@ -1,0 +1,34 @@
+.tablaresultadosfija {
+    border-top: solid 2px $colorBordo;
+    border-right: solid 2px $colorBordo;
+    border-bottom: solid 2px $colorBordo;
+    border-left: solid 2px $colorBordo;
+}
+
+.tablaresultados .tablaresultados1 .tablaresultados2 {
+    border-top: solid 2px $colorBordo;
+    border-right: solid 2px $colorBordo;
+    border-bottom: solid 2px $colorBordo;
+    border-left: solid 2px $colorBordo;
+}
+
+.letraresultados {
+    font-size: 0.75em;
+    justify-content: center;
+    text-align: center;
+}
+
+.tablaresultados:hover {
+    background-color: red;
+    transition: all 2s;
+}
+
+.tablaresultados1:hover {
+    background-color: green;
+    transition: all 2s;
+}
+
+.tablaresultados2:hover {
+    background-color: yellow;
+    transition: all 2s;
+  }

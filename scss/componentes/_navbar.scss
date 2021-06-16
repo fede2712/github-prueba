@@ -1,0 +1,54 @@
+@import '../funciones/variables';
+
+/* NAVBAR - MENU */
+
+nav {
+    border-top: solid 2px $colorBordo;
+    border-right: solid 2px $colorBordo;
+    border-bottom: solid 2px $colorBordo;
+    border-left: solid 2px $colorBordo;
+    text-align: center;
+    word-spacing: 4em;
+    background-color: $colorRosado;
+}
+
+/* Menú con submenú*/
+nav a {
+    text-decoration: none;
+    color: inherit;
+    font-size: 14px;
+  }
+  
+  nav li {
+    display: inline-block;
+    width: 150px;
+    height: 30px;
+    background-color: $colorBordo;
+    text-align: center;
+    color: $colorRosado;
+    position: relative;
+    z-index: 2;
+  }
+  
+  nav a:hover {
+    color: $pestanaActiva !important;
+    text-decoration: none;
+  }
+  
+  nav li:hover {
+    color: $pestanaActiva !important;
+    text-decoration: none;
+  }
+  
+  nav li > ul {
+    display: none;
+  }
+  
+  nav li:hover > ul {
+    display: block;
+    position: absolute;
+    top: 30px;
+    left: 0px;
+  }
+
+/* FIN DE NAVBAR - MENU */

@@ -1,0 +1,19 @@
+@import '../funciones/variables';
+@import '../funciones/extends';
+
+
+/* MIXINS */
+@mixin resultadosindex($backgroundcolor, $border) {
+    background-color: $backgroundcolor;
+    border: $border;
+  }
+
+  .partidoscolores1 {
+      @include resultadosindex(red, solid 5px !important)
+  }
+
+.partidoscolores2 {
+    @include resultadosindex(white, solid 5px !important)
+}
+
+/* FIN MIXINS */

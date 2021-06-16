@@ -1,0 +1,23 @@
+/* FLEXBOX */
+.historia-flex {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin: 0;
+    border: 0;
+}
+
+.camisetasflamengo {
+    width: 100px;
+    align-items: center !important;
+    justify-content: center !important;
+    display: flex !important;
+    flex-direction: row !important;
+    margin: auto;
+}
+
+.alejado {
+    padding-bottom: 150px;
+}
+
+

@@ -1,0 +1,61 @@
+@import '../funciones/variables';
+
+/* HEADER */
+
+.header {
+    background-color: $colorBordo;
+}
+
+.portada {
+    color: white;
+    background-color: $colorRosado;
+    font-family: "Righteous", cursive;
+    font-size: 40px;
+    text-align: center;
+    width: fit-content;
+    z-index: 2;
+}
+
+.menuPrincipal {
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    border: 0;
+    margin: 0;
+    text-align: center;
+    align-items: center;
+    position: static;
+    width: 100%;
+    color: $colorBordo;
+    font-family: "Righteous", cursive;
+    font-weight: 600;
+    font-size: 20px;
+    margin: auto;
+}
+
+.activa {
+    color: $pestanaActiva;
+}
+  
+  a {
+    text-decoration: none;
+    color: colorBordo;
+}
+
+.menu {
+    text-align: center;
+    align-items: center;
+    position: static;
+    width: 100%;
+    color: colorBordo;
+    font-family: "Righteous", cursive;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-weight: 600;
+    font-size: 25px;
+}
+
+/* FIN DE HEADER */
+

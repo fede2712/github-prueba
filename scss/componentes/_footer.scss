@@ -1,0 +1,33 @@
+@import '../funciones/variables';
+
+/* Footer */
+
+footer {
+    border-top: solid 1*2px $colorRosado; /*operadores matematicos*/
+    border-right: solid 1*2px $colorRosado; /*operadores matematicos*/
+    border-bottom: solid 1*2px $colorRosado; /*operadores matematicos*/
+    border-left: solid 1*2px $colorRosado; /*operadores matematicos*/
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+    background-color: $colorBordo;
+    margin-top: 150px;
+    width: 100%;
+    margin-bottom: 0 !important;
+    bottom: 0 !important;
+    padding: 5% 10% 0% 10%;
+    color: white;
+    font-family: "Manrope", sans-serif;
+    font-weight: bolder;
+    
+      }
+
+  .logosredes {
+    width: 35px;
+    margin: auto;
+    padding-bottom: 50px
+  }
+
+  
+
+  /* Fin de Footer */
