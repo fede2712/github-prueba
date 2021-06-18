@@ -257,7 +257,7 @@ footer {
 }
 
 .logosredes {
-  width: 35px;
+  width: 35px !important;
   margin: auto;
   padding-bottom: 50px;
 }
