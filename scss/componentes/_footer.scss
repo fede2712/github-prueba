@@ -14,14 +14,17 @@ footer {
     margin-top: 150px;
     width: 100%;
     margin-bottom: 0 !important;
-    bottom: 0 !important;
+    vertical-align: bottom;
     padding: 5% 10% 0% 10%;
-    color: white;
-    font-family: "Manrope", sans-serif;
-    font-weight: bolder;
+    
     
       }
 
+  .letrafooter {
+    color: white;
+    font-family: "Manrope", sans-serif;
+    font-weight: bolder;
+  }    
   .logosredes {
     width: 35px !important;
     margin: auto;

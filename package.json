@@ -15,8 +15,9 @@
     "url": "https://github.com/fede2712/github-prueba/issues"
   },
   "homepage": "https://github.com/fede2712/github-prueba#readme",
-  "description": "",
   "devDependencies": {
     "nodemon": "^2.0.7"
-  }
+  },
+  "dependencies": {},
+  "description": ""
 }

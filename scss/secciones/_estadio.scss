@@ -1,13 +1,78 @@
-.foto-estadio {
-    font-family: "Manrope", sans-serif;
-    text-align: center;
-    font-size: larger;
-    align-items: center;
-    width: 50px;
-    height: 50px;
-  }
+.estadio-container {
+  text-align: center;
+  justify-content: center;
+  margin: auto;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  
+}
 
-.textocard {
-    margin: auto;
-    align-items: center;
+.estadio-row {
+  @extend %flexbox-row;
+  align-items: center;
+}
+
+.estadio-item {
+  font-family: "Manrope", sans-serif;
+  height: 460px;
+  width: 350px;
+  text-align: center;
+  background: #dd4646;
+  margin-bottom: 10px;  
+  transition: all 0.5s; 
+  margin: auto;
+  
+
+  &:hover {
+      box-shadow: rgb(0, 0, 0, 45%) 5px 5px 5px 5px;
+  }
+}
+
+.estadio-img {
+  height: 150px;
+  width: 150px;
+  margin-top: 20px;
+}
+
+.estadio-title {
+  font-size: 1rem;
+  font-weight: bolder;
+  font-family: "Manrope", sans-serif;
+  color: rgb(170, 37, 37);
+}
+
+.estadio-text {
+  padding: 0px 20px;
+  color: black;
+  font-size: 0.9rem;
+}
+
+.cancha {
+  font-weight: bolder;
+  font-size: 1.3rem;
+  color: white ;
+  background: rgb(170, 37, 37);
+  border-radius: 200px;
+  width: 50px;
+  height: 50px;
+  padding-top: 5px;
+  margin: auto;
+  margin-bottom: 15px;
+}
+
+.categoria-estadio {
+  color: rgb(170, 37, 37);
+  font-weight: bolder;
+  font-size: 1rem;
+}
+
+.destacados-estadio {
+  font-size: 3rem;
+  font-weight: bolder;
+  font-family: "Manrope", sans-serif;
+  color: rgb(170, 37, 37);
+}
+
+.estadio-seccion {
+  margin-top: 50px;
 }

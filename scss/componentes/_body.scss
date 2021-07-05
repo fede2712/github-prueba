@@ -26,8 +26,6 @@ html {
 .fotoportada {
     text-align: center;
     align-items: center;
-    display: flex;
-    flex-direction: column;
     font-size: 1em;
     color: $colorBordo;
 }
@@ -80,6 +78,7 @@ html {
     padding-right: 50px;
     padding-top: 15px;
     text-decoration: underline;
+    text-align: center;
 }
   
   .textoportada {
@@ -97,8 +96,8 @@ html {
     font-family: "Manrope", sans-serif;
     padding-left: 50px;
     padding-right: 50px;
-    padding: 0 20% 0 20%;
     margin: auto;
+    text-align: center;
 }
   
   .parrafofoto {
@@ -112,21 +111,23 @@ html {
 }
   
 
-.partidoscolores {
+.partidoscolores1 {
   @extend %bordestabla;
   margin: auto;
   align-items: center;
+  width: 250px;
 }
 
 .partidoscolores2 {
   @extend %bordestabla;
   margin: auto;
   align-items: center;
+  width: 250px;
 }
   
 .fotoportada1 {
   transition: all 3s;
-  width: 500px;
+  width: 350px;
   margin: auto;
   align-items: center;
 }
@@ -155,19 +156,6 @@ html {
 .partido2:hover {
   background: white;
   transition: all 2s;
-}
-
-.pxwide {
-  width: 500px;
-  align-items: center !important;
-  display: flex !important;
-  justify-content: center !important;
-  position: center !important;
-  padding-top: 100px !important;
-  padding-left: 100px !important;
-  padding-right: 100px !important;
-  padding-bottom: 100px !important;
-  margin: auto;
 }
 
 .galeriaimagenes {

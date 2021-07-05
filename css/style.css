@@ -25,10 +25,8 @@
   padding-bottom: 10px;
   padding-top: 10px;
   border: 0;
-  margin: 0;
-  text-align: center;
-  align-items: center;
-  position: static;
+  display: flex;
+  justify-content: center;
   width: 100%;
   color: darkred;
   font-family: "Righteous", cursive;
@@ -85,8 +83,6 @@ html {
 .fotoportada {
   text-align: center;
   align-items: center;
-  display: flex;
-  flex-direction: column;
   font-size: 1em;
   color: darkred;
 }
@@ -137,6 +133,7 @@ h3, h4, h5, h6 {
   padding-right: 50px;
   padding-top: 15px;
   text-decoration: underline;
+  text-align: center;
 }
 
 .textoportada {
@@ -154,8 +151,8 @@ h3, h4, h5, h6 {
   font-family: "Manrope", sans-serif;
   padding-left: 50px;
   padding-right: 50px;
-  padding: 0 20% 0 20%;
   margin: auto;
+  text-align: center;
 }
 
 .parrafofoto {
@@ -168,19 +165,21 @@ h3, h4, h5, h6 {
   margin: auto;
 }
 
-.partidoscolores {
+.partidoscolores1 {
   margin: auto;
   align-items: center;
+  width: 250px;
 }
 
 .partidoscolores2 {
   margin: auto;
   align-items: center;
+  width: 250px;
 }
 
 .fotoportada1 {
   transition: all 3s;
-  width: 500px;
+  width: 350px;
   margin: auto;
   align-items: center;
 }
@@ -211,19 +210,6 @@ h3, h4, h5, h6 {
   transition: all 2s;
 }
 
-.pxwide {
-  width: 500px;
-  align-items: center !important;
-  display: flex !important;
-  justify-content: center !important;
-  position: center !important;
-  padding-top: 100px !important;
-  padding-left: 100px !important;
-  padding-right: 100px !important;
-  padding-bottom: 100px !important;
-  margin: auto;
-}
-
 .galeriaimagenes {
   margin: auto;
 }
@@ -249,8 +235,11 @@ footer {
   margin-top: 150px;
   width: 100%;
   margin-bottom: 0 !important;
-  bottom: 0 !important;
+  vertical-align: bottom;
   padding: 5% 10% 0% 10%;
+}
+
+.letrafooter {
   color: white;
   font-family: "Manrope", sans-serif;
   font-weight: bolder;
@@ -334,14 +323,22 @@ nav li:hover > ul {
     margin-top: 50px;
   }
 
+  h2 {
+    font-size: 1.3em;
+    text-align: center;
+    padding-top: 10px;
+  }
+
   .fotoportada {
     text-align: center;
     align-items: center;
     display: flex;
     flex-direction: column;
-    font-size: 1em;
-    color: white;
-    width: 50% !important;
+    font-size: 0.5em;
+  }
+
+  .partidoscolores1 .partidoscolores2 .galeriaimagenes {
+    width: 250px !important;
   }
 
   .menuPrincipal {
@@ -357,6 +354,45 @@ nav li:hover > ul {
   .logoprincipal:hover {
     transform: translateX(30px);
   }
+
+  footer {
+    font-size: 1em;
+  }
+
+  .logosredes {
+    width: 25px !important;
+    margin: auto;
+    padding-bottom: 50px;
+  }
+
+  .letrafooter {
+    color: white;
+    font-family: "Manrope", sans-serif;
+    font-size: x-small;
+    font-weight: bolder;
+  }
+
+  .logosredes {
+    width: 25px;
+    margin: auto;
+    padding-bottom: 50px;
+  }
+
+  .fla {
+    width: 80px;
+  }
+
+  .tabladeposiciones {
+    width: 95%;
+  }
+
+  .plantel-item {
+    margin: auto;
+  }
+
+  .estadio-item {
+    margin-bottom: 10px;
+  }
 }
 /*fin de media query*/
 /* FLEXBOX */
@@ -368,31 +404,165 @@ nav li:hover > ul {
   border: 0;
 }
 
-.camisetasflamengo {
-  width: 100px;
-  align-items: center !important;
-  justify-content: center !important;
-  display: flex !important;
-  flex-direction: row !important;
+.fla {
+  width: 200px;
+  align-items: center;
+  justify-content: space-around;
+  display: flex;
+  flex-direction: row;
   margin: auto;
 }
 
-.alejado {
-  padding-bottom: 150px;
+.estadio-container {
+  text-align: center;
+  justify-content: center;
+  margin: auto;
+  padding-top: 15px;
+  padding-bottom: 15px;
 }
 
-.foto-estadio {
-  font-family: "Manrope", sans-serif;
-  text-align: center;
-  font-size: larger;
+.estadio-row {
   align-items: center;
+}
+
+.estadio-item {
+  font-family: "Manrope", sans-serif;
+  height: 460px;
+  width: 350px;
+  text-align: center;
+  background: #dd4646;
+  margin-bottom: 10px;
+  transition: all 0.5s;
+  margin: auto;
+}
+.estadio-item:hover {
+  box-shadow: rgba(0, 0, 0, 0.45) 5px 5px 5px 5px;
+}
+
+.estadio-img {
+  height: 150px;
+  width: 150px;
+  margin-top: 20px;
+}
+
+.estadio-title {
+  font-size: 1rem;
+  font-weight: bolder;
+  font-family: "Manrope", sans-serif;
+  color: #aa2525;
+}
+
+.estadio-text {
+  padding: 0px 20px;
+  color: black;
+  font-size: 0.9rem;
+}
+
+.cancha {
+  font-weight: bolder;
+  font-size: 1.3rem;
+  color: white;
+  background: #aa2525;
+  border-radius: 200px;
   width: 50px;
   height: 50px;
+  padding-top: 5px;
+  margin: auto;
+  margin-bottom: 15px;
 }
 
-.textocard {
+.categoria-estadio {
+  color: #aa2525;
+  font-weight: bolder;
+  font-size: 1rem;
+}
+
+.destacados-estadio {
+  font-size: 3rem;
+  font-weight: bolder;
+  font-family: "Manrope", sans-serif;
+  color: #aa2525;
+}
+
+.estadio-seccion {
+  margin-top: 50px;
+}
+
+.plantel-container {
+  text-align: center;
+  justify-content: center;
   margin: auto;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+.plantel-row {
   align-items: center;
+}
+
+.plantel-item {
+  font-family: "Manrope", sans-serif;
+  height: 460px;
+  width: 350px;
+  text-align: center;
+  background: #dd4646;
+  margin-right: 0.5rem;
+  margin-bottom: 0.5rem;
+  transition: all 0.5s;
+  margin: auto;
+}
+.plantel-item:hover {
+  box-shadow: rgba(0, 0, 0, 0.45) 5px 5px 5px 5px;
+}
+
+.plantel-img {
+  height: 100px;
+  width: 100px;
+  border-radius: 200px;
+  margin-top: 20px;
+}
+
+.plantel-title {
+  font-size: 1rem;
+  font-weight: bolder;
+  font-family: "Manrope", sans-serif;
+  color: #aa2525;
+}
+
+.plantel-text {
+  padding: 0px 20px;
+  color: black;
+  font-size: 0.9rem;
+}
+
+.camiseta {
+  font-weight: bolder;
+  font-size: 1.3rem;
+  color: white;
+  background: #aa2525;
+  border-radius: 200px;
+  width: 50px;
+  height: 50px;
+  padding-top: 5px;
+  margin: auto;
+  margin-bottom: 15px;
+}
+
+.categoria {
+  color: #aa2525;
+  font-weight: bolder;
+  font-size: 1rem;
+}
+
+.destacados {
+  font-size: 3rem;
+  font-weight: bolder;
+  font-family: "Manrope", sans-serif;
+  color: #aa2525;
+}
+
+.titulo-seccion {
+  margin-top: 50px;
 }
 
 .mapaubicacion {
@@ -421,12 +591,14 @@ nav li:hover > ul {
   border-right: solid 2px darkred;
   border-bottom: solid 2px darkred;
   border-left: solid 2px darkred;
+  margin: auto;
 }
 
 .letraresultados {
   font-size: 0.75em;
   justify-content: center;
   text-align: center;
+  margin: auto;
 }
 
 .tablaresultados:hover {
@@ -444,6 +616,15 @@ nav li:hover > ul {
   transition: all 2s;
 }
 
+.tabladeposiciones {
+  text-align: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  font-size: 1em;
+  color: darkred;
+}
+
 /* VARIABLES */
 /* Colores */
 /* FIN DE VARIABLES */
@@ -451,11 +632,18 @@ nav li:hover > ul {
 /* Colores */
 /* FIN DE VARIABLES */
 /* EXTENDS */
-.partidoscolores, .partidoscolores2 {
+.partidoscolores1, .partidoscolores2 {
   border-top: solid 2px black;
   border-right: solid 2px black;
   border-bottom: solid 2px black;
   border-left: solid 2px black;
+}
+
+.estadio-row, .plantel-row {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: wrap;
 }
 
 /* FIN EXTENDS */
@@ -472,11 +660,18 @@ nav li:hover > ul {
 
 /* FIN MIXINS */
 /* EXTENDS */
-.partidoscolores, .partidoscolores2 {
+.partidoscolores1, .partidoscolores2 {
   border-top: solid 2px black;
   border-right: solid 2px black;
   border-bottom: solid 2px black;
   border-left: solid 2px black;
+}
+
+.estadio-row, .plantel-row {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: wrap;
 }
 
 /* FIN EXTENDS */

@@ -7,4 +7,11 @@
   border-left: solid 2px black;
 }
 
+%flexbox-row {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
 /* FIN EXTENDS */

@@ -2,7 +2,7 @@
 @media only screen and (max-width: 600px) {
     * {
       margin: 0px;
-      padding: 0px;
+      padding: 0px;     
     }
   
     ul {
@@ -15,16 +15,26 @@
       margin-top: 50px;
     }
   
+    h2 {
+      font-size: 1.3em;
+      text-align: center;
+      padding-top: 10px;
+    }
+
+       
     .fotoportada {
       text-align: center;
       align-items: center;
       display: flex;
       flex-direction: column;
-      font-size: 1em;
-      color: white;
-      width: 50% !important;
-    }
+      font-size: 0.5em;
+     }
   
+    .partidoscolores1 .partidoscolores2 .galeriaimagenes {
+      width: 250px !important;
+    }
+
+   
     .menuPrincipal {
       margin: auto !important;
       font-size: small;
@@ -38,6 +48,47 @@
     .logoprincipal:hover {
       transform: translateX(30px);
     }
+
+    footer {
+      font-size: 1em;
+    }
+
+    .logosredes {
+      width: 25px !important;
+      margin: auto;
+      padding-bottom: 50px
+    }
+
+    .letrafooter {
+      color: white;
+      font-family: "Manrope", sans-serif;
+      font-size: x-small;
+      font-weight: bolder;
+    }    
+    .logosredes {
+      width: 25px;
+      margin: auto;
+      padding-bottom: 50px
+    }
+
+    .fla {
+      width: 80px ;
+      }
+
+
+    .tabladeposiciones {
+        width: 95%;
+    }
+
+  .plantel-item {
+  margin: auto;
+  
   }
+
+  .estadio-item {
+    margin-bottom: 10px;
+  }
+  }
+
 
 /*fin de media query*/
